@@ -1,3 +1,18 @@
+# common local files
+.cxx/
+captures/
+*.jks
+*.keystore
+*.p12
+
+# hide sensitive info
+secrets.properties
+local.properties
+
+# ignore idea files
+.idea/
+*.iml
+
 # Compiled class file
 *.class
 
@@ -11,7 +26,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -23,5 +37,8 @@
 hs_err_pid*
 replay_pid*
 
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
+# Gradle
+.gradle/
+build/
+**/build/
 .kotlin/
