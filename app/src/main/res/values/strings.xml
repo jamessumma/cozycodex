@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">cozycodex</string>
+    <string name="homescreen_image">Homescreen Image?</string>
 </resources>
